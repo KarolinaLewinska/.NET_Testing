@@ -1,33 +1,33 @@
 ﻿using System;
 
-namespace FunkcjeFinansowe
+namespace FinancialFunctions
 {
-    public class Inwestycja
+    public class Investment
     {
-        public double wartoscPrzyszla(double kwotaPoczatkowa, double oprocentowanie, int liczbaOkresow)
+        public double countFutureValue(double initialSum, double interest, int numberOfPeriods)
         {
-            if (kwotaPoczatkowa <= 0 || liczbaOkresow <=0)
+            if (initialSum <= 0 || numberOfPeriods <=0)
                 throw new ArgumentException("Kwota początkowa lub liczba okresów nie mogą być ujemne!"); 
 
-            double wartoscPrzyszla =  kwotaPoczatkowa * (1 + oprocentowanie) * liczbaOkresow;
-            return wartoscPrzyszla;
+            double countFutureValue =  initialSum * (1 + interest) * numberOfPeriods;
+            return countFutureValue;
         }
 
-        public double wyliczStope(double kwotaPoczatkowa, double kwotaKoncowa, int liczbaOkresow)
+        public double countInterestRate(double initialSum, double finalSum, int numberOfPeriods)
         {
-            double stopa;
+            double interestRate;
 
-            if (kwotaPoczatkowa > kwotaKoncowa)
-                throw new ArgumentException("Kwota początkowa nie może być większa niż kwota końcowa");
+            if (initialSum > finalSum)
+                throw new ArgumentException("Kwota początkowa nie może być większa niż sum końcowa");
 
-            if (kwotaPoczatkowa == 0)
+            if (initialSum == 0)
                 throw new DivideByZeroException("Dzielenie przez zero zabronione");
 
-            if (liczbaOkresow == 0)
+            if (numberOfPeriods == 0)
                 throw new ArgumentException("Liczba okresów nie może wynosić 0");
 
-            stopa = ((kwotaKoncowa / kwotaPoczatkowa) - 1) * liczbaOkresow;
-            return stopa;
+            interestRate = ((finalSum / initialSum) - 1) * numberOfPeriods;
+            return interestRate;
         }
     }
 }

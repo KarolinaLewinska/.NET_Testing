@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FinancialFunctions/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FinancialFunctions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancialFunctions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinancialFunctions/1.0.0": {
+      "type": "project",
+      "path": "../FunkcjeFinansowe/FinancialFunctions.csproj",
+      "msbuildProject": "../FunkcjeFinansowe/FinancialFunctions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FinancialFunctions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lewin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lewin\\source\\repos\\.NET_Testing\\Financial Calculator\\FunkcjeFInansoweGUI\\FinancialFunctionsGUI.csproj",
+      "projectName": "FinancialFunctionsGUI",
+      "projectPath": "C:\\Users\\lewin\\source\\repos\\.NET_Testing\\Financial Calculator\\FunkcjeFInansoweGUI\\FinancialFunctionsGUI.csproj",
+      "packagesPath": "C:\\Users\\lewin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lewin\\source\\repos\\.NET_Testing\\Financial Calculator\\FunkcjeFInansoweGUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lewin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\lewin\\source\\repos\\.NET_Testing\\Financial Calculator\\FunkcjeFinansowe\\FinancialFunctions.csproj": {
+              "projectPath": "C:\\Users\\lewin\\source\\repos\\.NET_Testing\\Financial Calculator\\FunkcjeFinansowe\\FinancialFunctions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿using FunkcjeFinansowe;
+﻿using FinancialFunctions;
 using System;
 using System.Windows.Forms;
 
@@ -28,16 +28,16 @@ namespace FunkcjeFInansoweGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Inwestycja inwestycja = new Inwestycja();
+            Investment inw = new Investment();
             try
             {
-                double kwotaPoczatkowa = double.Parse(textBox1.Text);
-                double oprocentowanie = double.Parse(textBox2.Text);
-                int liczbaOkresow = int.Parse(textBox3.Text);
-                double wynik = inwestycja.wartoscPrzyszla
-                    (kwotaPoczatkowa, oprocentowanie, liczbaOkresow);
-                double wynikZaokr = Math.Round(wynik, 2);
-                label9.Text = wynikZaokr.ToString();
+                double initialSum = double.Parse(textBox1.Text);
+                double interest = double.Parse(textBox2.Text);
+                int numberOfPeriods = int.Parse(textBox3.Text);
+               
+                double result = inw.countFutureValue(initialSum, interest, numberOfPeriods);
+                double roundedResult = Math.Round(result, 2);
+                label9.Text = roundedResult.ToString();
             }
             catch (Exception ex)
             {
@@ -48,16 +48,16 @@ namespace FunkcjeFInansoweGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Inwestycja inwestycja = new Inwestycja();
+            Investment inw = new Investment();
             try
             {
-                double kwotaPoczatkowa = double.Parse(textBox4.Text);
-                double kwotaKoncowa = double.Parse(textBox5.Text);
-                int liczbaOkresow = int.Parse(textBox6.Text);
-                double wynik = inwestycja.wyliczStope
-                    (kwotaPoczatkowa, kwotaKoncowa, liczbaOkresow);
-                double wynikZaokr = Math.Round(wynik, 2);
-                label10.Text = wynikZaokr.ToString();
+                double initialSum = double.Parse(textBox4.Text);
+                double finalSum = double.Parse(textBox5.Text);
+                int numberOfPeriods = int.Parse(textBox6.Text);
+                
+                double result = inw.countInterestRate(initialSum, finalSum, numberOfPeriods);
+                double roundedResult = Math.Round(result, 2);
+                label10.Text = roundedResult.ToString();
             }
             catch (Exception ex)
             {

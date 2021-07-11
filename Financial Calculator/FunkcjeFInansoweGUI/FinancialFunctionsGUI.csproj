@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FunkcjeFinansowe\FunkcjeFinansowe.csproj" />
+    <ProjectReference Include="..\FunkcjeFinansowe\FinancialFunctions.csproj" />
   </ItemGroup>
 
 </Project>

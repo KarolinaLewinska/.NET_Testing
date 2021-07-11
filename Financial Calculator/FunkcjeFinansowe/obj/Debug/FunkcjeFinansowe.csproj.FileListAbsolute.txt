@@ -4,3 +4,9 @@ C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinan
 C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.csproj.CoreCompileInputs.cache
 C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.dll
 C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.pdb
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\bin\Debug\FunkcjeFinansowe.dll
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\bin\Debug\FunkcjeFinansowe.pdb
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.csproj.AssemblyReference.cache
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.csproj.CoreCompileInputs.cache
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.dll
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.pdb

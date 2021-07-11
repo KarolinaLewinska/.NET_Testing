@@ -1,0 +1,6 @@
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.csproj.AssemblyReference.cache
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.Form1.resources
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.csproj.GenerateResource.cache
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.AssemblyInfoInputs.cache
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.AssemblyInfo.cs
+C:\Users\lewin\source\repos\.NET_Testing\Financial Calculator\FunkcjeFInansoweGUI\obj\Debug\netcoreapp3.1\FunkcjeFInansoweGUI.csproj.CoreCompileInputs.cache

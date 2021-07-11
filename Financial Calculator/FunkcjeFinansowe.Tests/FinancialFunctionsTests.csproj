@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FunkcjeFinansowe\FunkcjeFinansowe.csproj">
+    <ProjectReference Include="..\FunkcjeFinansowe\FinancialFunctions.csproj">
       <Project>{5506195f-7776-4eaf-b638-19c9ac09683d}</Project>
-      <Name>FunkcjeFinansowe</Name>
+      <Name>FinancialFunctions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

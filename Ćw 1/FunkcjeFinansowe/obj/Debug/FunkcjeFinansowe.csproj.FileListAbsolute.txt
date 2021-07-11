@@ -1,6 +1,0 @@
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\bin\Debug\FunkcjeFinansowe.dll
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\bin\Debug\FunkcjeFinansowe.pdb
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.csprojAssemblyReference.cache
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.csproj.CoreCompileInputs.cache
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.dll
-C:\Users\lewin\Desktop\Studia\Testowanie aplikacji\Ćwiczenia\Ćw 1\FunkcjeFinansowe\obj\Debug\FunkcjeFinansowe.pdb

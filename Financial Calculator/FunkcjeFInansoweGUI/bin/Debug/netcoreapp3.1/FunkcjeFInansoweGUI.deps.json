@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FunkcjeFInansoweGUI/1.0.0": {
+        "dependencies": {
+          "FunkcjeFinansowe": "1.0.0"
+        },
+        "runtime": {
+          "FunkcjeFInansoweGUI.dll": {}
+        }
+      },
+      "FunkcjeFinansowe/1.0.0": {
+        "runtime": {
+          "FunkcjeFinansowe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FunkcjeFInansoweGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FunkcjeFinansowe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

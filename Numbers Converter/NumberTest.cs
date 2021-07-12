@@ -16,6 +16,12 @@ namespace NumberaConversion.Tests
             number = new Number();
         }
 
+        [TestCleanup]
+        public void tearDown()
+        {
+            number = null;
+        }
+
         [TestMethod]
         public void convertToArabic_I()
         {
@@ -191,12 +197,6 @@ namespace NumberaConversion.Tests
                 Assert.AreEqual("Wpisano nieprawidłowe znaki!", exc.Message);
                 throw exc;
             }
-        }
-
-        [TestCleanup]   
-        public void tearDown()
-        {
-            number = null;
         }
     }
 }
